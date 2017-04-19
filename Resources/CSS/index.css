@@ -5,30 +5,32 @@ header {
   font-size: 14px;
   font-weight: bold;
   height: 75px;
-  width: 600;
   border-bottom: 1px solid black;
   align-items: center;
   flex-wrap: nowrap;
 }
 
 /*Logo and Nav are flex items to header*/
+.left{
+  display: inline-flex;
+  align-items: center;
+}
+
 .logo {
   flex-basis: 70px;
   margin: 10px 10px 10px 30px;
-  display: inline-flex;
 }
 
 .name {
   color: MediumAquamarine;
-  display: inline-flex;
 }
 
-.nav {
-  display: inline-flex
-  margin-left: auto;
+nav {
+  align-items: center;
 }
 
-.nav span {
+.nav-link {
   color: black;
-  padding-right: 30px;
+  padding-right: 20px;
+  display: inline-block;
 }
