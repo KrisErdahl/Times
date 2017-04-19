@@ -8,6 +8,7 @@ header {
   border-bottom: 1px solid black;
   align-items: center;
   flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 /*Logo and Nav are flex items to header*/
