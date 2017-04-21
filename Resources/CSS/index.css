@@ -20,11 +20,10 @@ header {
 }
 
 /*Logo and Nav are flex items to header*/
-.left{
+.left {
   display: inline-flex;
   align-items: center;
   width: 1000px;
-  flex-shrink: 5;
 }
 
 .logo {
@@ -101,8 +100,9 @@ main {
   font-size: 30px;
   color: white;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   height: 300px;
+  text-align: center;
 }
 
 .story {
@@ -125,6 +125,8 @@ main {
   background: #FFF url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png") no-repeat center;
   justify-content: flex-start;
   font-size: 40px;
+  text-align: left;
+  padding-left: 25px;
 }
 
 .orca .pic {
@@ -166,4 +168,39 @@ main {
 
 #first {
   border-top: 1px solid black;
+}
+
+footer {
+  display: flex;
+  height: 300px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana;
+  font-size: 12px;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.bottomleft {
+  display: inline-flex;
+  align-items: center;
+}
+
+.bottom {
+  display: inline-block;
+}
+
+.mytimes {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  padding-right: 30px;
+}
+
+.copy {
+  margin-top: 20px;
 }
