@@ -10,6 +10,7 @@ header {
   font-size: 14px;
   font-weight: bold;
   height: 75px;
+  width: 100%;
   border-bottom: 1px solid black;
   align-items: center;
   flex-wrap: nowrap;
@@ -23,6 +24,7 @@ header {
   display: inline-flex;
   align-items: center;
   width: 1000px;
+  flex-shrink: 5;
 }
 
 .logo {
@@ -36,6 +38,7 @@ header {
 
 nav {
   align-items: center;
+  flex-shrink: 0;
 }
 
 .nav-link {
@@ -78,6 +81,7 @@ main {
   display: inline-flex;
   flex-direction: column;
   width: 300px;
+  flex-shrink: 0;
   margin-right: 25px;
   align-items: flex-start;
 }
